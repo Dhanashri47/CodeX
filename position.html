@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        #box1{
+            
+            font-size: 50px;
+            background-color: blue;
+            margin-top:10px ;
+            display: inline-block;
+          
+            
+        }
+        #box2{
+            
+            font-size: 50px;
+            background-color: blue;
+            margin-top:10px ;
+            display: inline-block;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            z-index: -2;
+           
+        }
+        #box3{
+            
+            font-size: 50px;
+            background-color: blue;
+            margin-top:10px ;
+            display: inline-block;
+            position: relative;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p id="box1">This is box 1</p>
+        <p id="box2">This is box 2</p>
+        <p id="box3">This is box 3</p>
+
+    </div>
+    
+</body>
+</html>
